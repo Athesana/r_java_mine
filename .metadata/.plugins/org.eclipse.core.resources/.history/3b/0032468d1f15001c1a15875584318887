@@ -1,0 +1,40 @@
+package com.kh.chap1;
+
+import com.kh.chap1.thread.Thread1;
+import com.kh.chap1.thread.Thread2;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Thread1 th1 = new Thread1();
+//		th1.run();
+		th1.start();
+		
+		Thread th2 = new Thread(new Thread2());
+		
+//		th2.run();
+		th2.start();
+		
+		// 익명 구현 객체
+		Thread th3 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				for (int i = 0; i < 100; i++) {
+					System.out.println(Thread.currentThread().getName() + "[" + i + "]");
+				}
+			}
+			
+		});
+		
+		th3.start();
+		
+		
+		
+		System.out.println(Thread.currentThread().getName());
+		System.out.println("메인스레드 종료");
+		
+	}
+
+}

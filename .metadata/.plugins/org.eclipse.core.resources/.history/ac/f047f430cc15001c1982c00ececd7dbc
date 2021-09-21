@@ -1,0 +1,5 @@
+package com.kh.chap2.sync;
+
+public class Producer extends Thread {
+
+}

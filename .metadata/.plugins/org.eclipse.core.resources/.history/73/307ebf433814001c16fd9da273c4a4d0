@@ -1,0 +1,32 @@
+package com.kh.chap3.map;
+
+import java.util.Properties;
+
+public class B_Properties {
+
+	public void method1() {
+		
+		Properties prop = new Properties();
+		
+		prop.setProperty("List", "ArrayList");
+		prop.setProperty("Set", "HashSet");
+		prop.setProperty("Map", "HashMap");
+		
+		System.out.println(prop);
+		
+		prop.setProperty("Map", "Properties");
+		
+		System.out.println(prop);
+		
+	}
+	
+	
+	public void method2() {
+		
+		
+	}
+	
+	
+	
+	
+}

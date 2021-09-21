@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;num&apos; from expression &apos;scanner.nextInt()&apos;&#x0D;&#x0A;- Original project: &apos;03_연산자&apos;&#x0D;&#x0A;- Variable name: &apos;num&apos;&#x0D;&#x0A;- Destination method: &apos;com.kh.operator.practice.G_Triple.method1()&apos;&#x0D;&#x0A;- Variable expression: &apos;scanner.nextInt()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;num&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.kh.operator.practice{G_Triple.java" name="num" replace="true" selection="568 0" stamp="1629851047782" varType="false" version="1.0"/>
+</session>

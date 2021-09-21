@@ -1,0 +1,22 @@
+package com.kh.chap2.sync;
+
+public class Consumer implements Runnable {
+
+	private Buffer buffer;
+	
+	public Consumer() {
+	}
+	
+	public Consumer(Buffer buffer) {
+		super();
+		this.buffer = buffer;
+	}
+
+	@Override
+	public void run() {
+		for (int i = 1; i < 100; i++) {
+			buffer.getData();
+		}		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.kh.chap1;
+
+import com.kh.chap1.thread.Thread1;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Thread1 th1 = new Thread1();
+		th1.run();
+		
+		System.out.println("메인스레드 종료");
+		
+	}
+
+}

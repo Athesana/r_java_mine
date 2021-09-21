@@ -1,0 +1,24 @@
+package com.kh.chap2.set;
+
+import java.util.TreeSet;
+
+public class B_TreeSet {
+	
+	public void method1() {
+		TreeSet<String> ts = new TreeSet<>();
+		
+		ts.add("하하하");
+		ts.add(null);
+		ts.add("나나나");
+		ts.add("가가가");
+		ts.add(null);
+		ts.add("다다다");
+		ts.add("다다다");
+		ts.add(null);
+		ts.add("하하하");
+		
+		System.out.println(ts);
+	
+	}
+
+}

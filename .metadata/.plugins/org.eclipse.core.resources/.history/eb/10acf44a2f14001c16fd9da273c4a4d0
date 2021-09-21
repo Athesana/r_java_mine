@@ -1,0 +1,26 @@
+package com.kh.chap3.map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.kh.chap3.map.model.vo.Snack;
+
+public class A_Hashmap {
+
+	public void method1() {
+		
+		Map<String, Snack> map = new HashMap<>();
+		
+		map.put("다이제", new Snack("초코맛", 1200));
+		map.put("칸초", new Snack("바나나맛", 250));
+		map.put("허니버터칩", new Snack("꿀맛", 500));
+		map.put("칸초", new Snack("초코맛", 250));
+		map.put("꼬북칩", new Snack("오리지널", 1200));
+		map.put("꼬북칩", new Snack("초코맛", 1200));
+		
+		System.out.println(map);
+		
+		
+	}
+	
+}

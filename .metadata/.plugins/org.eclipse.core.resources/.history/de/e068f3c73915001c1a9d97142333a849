@@ -1,0 +1,11 @@
+package com.kh.network.tcp;
+
+public class Client {
+
+	public void clientStart() {
+		
+		
+		
+	}
+	
+}

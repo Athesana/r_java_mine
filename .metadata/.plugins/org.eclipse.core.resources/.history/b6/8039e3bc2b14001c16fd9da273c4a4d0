@@ -1,0 +1,9 @@
+package com.kh.chap3.map;
+
+public class A_Hashmap {
+
+	public void method1() {
+		
+	}
+	
+}

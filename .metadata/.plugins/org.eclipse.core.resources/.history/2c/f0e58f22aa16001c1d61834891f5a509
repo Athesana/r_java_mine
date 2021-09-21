@@ -1,0 +1,16 @@
+package com.kh.exception.practice;
+
+import java.util.Scanner;
+
+public class practice2 {
+	
+	Scanner sc = new Scanner(System.in);
+	int num1 = sc.nextInt();
+	int num2 = sc.nextInt();
+	
+	System.out.println("두 수의 나눗셈 결과 : " + num1/num2);
+	
+	
+	
+	
+}
