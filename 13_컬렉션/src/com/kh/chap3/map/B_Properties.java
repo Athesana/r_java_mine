@@ -17,7 +17,7 @@ public class B_Properties {
 		
 		Properties prop = new Properties();  // 순서 유지 안됨, 중복된건 마지막 값으로 출력
 		
-		// Key, Value 쌍으로 저장할 때 순서 유지 및 키 값은 중복이 안된다.
+		// Key, Value 쌍으로 저장할 때 순서 유지 및 키 값은 중복이 안된다.(마지막에 저장한 값으로 출력된다.)
 		prop.setProperty("List", "ArrayList");
 		prop.setProperty("Set", "HashSet");
 		prop.setProperty("Map", "HashMap");
