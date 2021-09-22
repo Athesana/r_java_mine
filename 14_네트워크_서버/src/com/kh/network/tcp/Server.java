@@ -52,7 +52,7 @@ public class Server {
 				
 				new Thread(new Receiver(client)).start();
 			}
-			
+//				receiver 클래스 run() 안에 집어넣는다.
 //				// 5. 연결된 클라이언트와 입출력 스트림을 생성한다.
 //				InputStream is = client.getInputStream(); // 클라이언트로부터 값을 입력받을 스트림
 //				OutputStream os = client.getOutputStream(); // 클라이언트로 값을 출력하는 스트림

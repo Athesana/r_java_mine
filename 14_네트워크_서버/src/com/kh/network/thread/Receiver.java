@@ -10,7 +10,7 @@ import java.net.Socket;
 
 // 클라이언트와 통신을 위한 스레드 구현
 	public class Receiver implements Runnable {
-		// Thread에서 사용할 필드 선언
+		// Thread에서 사용할 필드(인스턴스 변수) 선언
 		
 		private Socket client;
 		private BufferedReader br;

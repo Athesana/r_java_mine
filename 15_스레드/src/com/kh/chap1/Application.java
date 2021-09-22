@@ -9,7 +9,7 @@ public class Application {
 		
 		Thread1 th1 = new Thread1();
 	
-		th1.setPriority(Thread.MAX_PRIORITY);
+		th1.setPriority(Thread.MAX_PRIORITY); // 1~10까지 숫자를 직접 적어도 된다. 반드시 start() 메소드 호출 전에 적어야 한다.
 //		th1.run();
 		th1.start();
 		
@@ -45,7 +45,8 @@ public class Application {
 		
 		Thread th4 = new Thread(() -> {
 			for (int i = 0; i < 100; i++) {
-				System.out.println(Thread.currentThread().getName() + "[" + i + "]");
+//						Thread.sleep(5);
+					System.out.println(Thread.currentThread().getName() + "[" + i + "]");
 			}
 		});
 		

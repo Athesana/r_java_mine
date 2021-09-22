@@ -10,7 +10,7 @@ public class Application {
 		
 		Buffer buffer = new Buffer();
 		Thread producer = new Producer(buffer);
-		Thread consumer = new Thread(new Consumer(buffer));
+		Thread consumer = new Thread(new Consumer(buffer)); // Runnable 인터페이스를 구현하기 때문에 스레드를 만들도 그 매개값으로 consumer를 넘겨준다.
 		
 		producer.start();
 		consumer.start();

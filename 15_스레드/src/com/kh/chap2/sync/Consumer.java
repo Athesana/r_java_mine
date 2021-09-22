@@ -13,7 +13,7 @@ public class Consumer implements Runnable {
 	}
 
 	@Override
-	public void run() {
+	public void run() {  //buffer에 있는 getdata만 가져다가 소비만 하게 만든다.
 		try {
 			for(int i = 1; i <= 10; i++) {
 				buffer.getData();
