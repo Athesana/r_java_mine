@@ -34,7 +34,6 @@ public class A_queue {
 	 *  7. isFull() : 큐가 가득찼는지 확인한다. 데이터를 저장할 위치인 rear가 배열의 크기에 도달하면 true를 반환한다.
 	 *  8. remove() : 큐의 첫 번째 값을 제거한다.
 	 *  9. clear() : 큐 초기화한다. 큐의 모든 요소를 제거한다.
-	 *  
 	 * 
 	 */
 	
@@ -98,28 +97,10 @@ public class A_queue {
 		System.out.println("두 번째로 들어온 데이터 반환 : " + q.poll());
 		System.out.println("세 번째로 들어온 데이터 반환 : " + q.poll());
 		
-		System.out.println(q.size());
+		System.out.println("큐의 사이즈 : " + q.size());
 		System.out.println(q.isEmpty());
 	
 	
-	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
