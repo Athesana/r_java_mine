@@ -1,4 +1,4 @@
-package 조별과제_01.practice.queue;
+package com.kh.homework2.com;
 
 import java.util.LinkedList;
 import java.util.Queue;

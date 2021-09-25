@@ -39,6 +39,7 @@ public class B_KeyBoardInput {
 		
 //		scanner.nextChar()가 없다. 문자를 호출하는 메소드가 없어서 문자열 형태로 만들어 준다.
 //		scanner.nextLine()을 통해서 문자열을 읽어오고 String 클래스에서 제공해주는 charAt() 통해서 원하는 문자를 뽑아낸다.
+		
 //문자열 경우에는 new 없이 클래스 생성 가능 String이라는 클래스 안에 line.charAt이라는 메소드를 만든 것
 //charAt은 문자열 중에 내가 원하는 순서에 있는 글자 하나만 뽑아내는 메소드. 제일 앞의 문자부터 0으로 시작해서 1씩 증가하면서 위치가 지정된다.
 		String line = scanner.nextLine();
