@@ -23,6 +23,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\ssskd\Desktop\2차배열실습_이산아.zip"/>
 			<item value="C:\Users\ssskd\Desktop\SANA\kh\자료구조_큐.zip"/>
 			<item value="C:\Users\ssskd\Desktop\클라우드 조별 과제 3조.zip"/>
 			<item value="C:\Users\ssskd\Desktop\버블정렬.zip"/>
