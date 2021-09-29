@@ -83,6 +83,12 @@ public class DimensionPractice {
 			}
 		}
 		
+//		<이 부분은 예제의 전체 표에서 모든 데이터들이 끝에 합계를 추가하고 싶을 때 작성하세요>
+//		for(int i = 0; i < four.length-1; i++) {
+//			four[3][3] += four[i][3] + four[3][i];
+//		}
+		
+		
 		
 		for(int i = 0; i < four.length; i++) {
 			for(int j = 0 ; j < four[i].length; j++) {
@@ -215,8 +221,11 @@ public class DimensionPractice {
 			}
 	
 		System.out.println("== 2분단 ==");
-		
 
+// <피드백 추가>
+//	line1 배열에 1분단 데이터를 저장 후 출력하고 그 이후에 2분단의 데이터를 다시 저장한 후에 출력하기 때문에 line2 를 line1로 적어도 정상작동
+//	즉, 배열을 하나만 사용한다고 해서 문제되지 않는다.
+		
 			for(int i = 0; i < line2.length; i++) {
 				for(int j = 0; j < line2[i].length; j++) {
 					line2[i][j] = member[value++];
@@ -309,6 +318,10 @@ public class DimensionPractice {
 				}
 			}	
 		}
+		
+//		<피드백 추가>
+//		각 분단에서 학생을 찾고 검색된 학생이 없으면 
+//		groupo에 기존에 초기화된 빈 문자열("")이 변경되지 않았기 때문에 group의 값을 가지고 equals()메소드를 사용한다.
 		
 		if(group.equals("")) {
 			System.out.println("검색하신 학생은 없습니다.");

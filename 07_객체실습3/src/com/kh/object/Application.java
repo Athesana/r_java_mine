@@ -22,6 +22,8 @@ public class Application {
 		System.out.println("4번 : " + sample.mySubstring("apple", 2, 4));
 		
 		
+		
+		
 	}
 
 }
