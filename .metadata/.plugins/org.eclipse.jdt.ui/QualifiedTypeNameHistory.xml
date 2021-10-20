@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="com.kh.chap1.list.A_ArrayList"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="com.kh.object.practice.NonStaticSample"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.kh.object.practice.StaticSample"/>
+    <fullyQualifiedTypeName name="com.kh.inherit.practice.Student"/>
+    <fullyQualifiedTypeName name="com.kh.inherit.practice.Employee"/>
 </qualifiedTypeNameHistroy>
