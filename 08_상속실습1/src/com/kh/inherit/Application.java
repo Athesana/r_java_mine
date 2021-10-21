@@ -7,6 +7,7 @@ public class Application {
 
 	public static void main(String[] args) {
 
+		//ing
 		//3명의 학생 정보를 기록할 수 있게 객체 배열 할당(Student[])
 		//위의 사용 데이터 참고하여 3명의 학생 정보 초기화
 		// 위의 학생 정보 모두 출력
@@ -21,15 +22,17 @@ public class Application {
 		
 		//배열에 담긴 사원들의 정보를 모두 출력
 		
+		Student[] student = new Student[3];
+		
+		
+		
 		// Student 객체 생성
-		Student student = new Student("홍길동", 20, 178.2, 70.0, 1, "정보시스템공학과");
 	
 		// Employee 객체 생성
 		Employee employee = new Employee("박보검", 28, 180.3, 72.0, 100000000, "영업부");
 		
 		//출력구문
 		
-		System.out.println(student.information());
 		System.out.println(employee.information());
 	
 	}

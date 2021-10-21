@@ -55,7 +55,7 @@ public class Person {
 	
 	
 	public String information() {
-		return name + ",  " + this.age + ", " +  this.height + ", " + this.weight;
+		return "name = " + name + ", age = " + this.age + ", height = " +  this.height + ", weight =  " + this.weight;
 		
 	
 	}

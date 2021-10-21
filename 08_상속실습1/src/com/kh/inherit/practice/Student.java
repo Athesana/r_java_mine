@@ -11,6 +11,7 @@ public class Student extends Person{
 
 		public Student(String name, int age, double height, double weight, int grade, String major) {
 			super(age, height, weight);
+			super.name = name;
 			this.grade = grade;
 			this.major = major;
 		}
@@ -34,7 +35,7 @@ public class Student extends Person{
 		@Override
 		public String information() {
 
-			return super.information() + ", " + grade + ", " + major;
+			return super.information() + ", grade = " + grade + ", major = " + major;
 		}
 	
 		
