@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.List"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="com.kh.chap1.list.compare.TitleASending"/>
-    <fullyQualifiedTypeName name="com.kh.chap1.list.model.vo.Music"/>
-    <fullyQualifiedTypeName name="com.kh.chap1.list.compare.ArtistASending"/>
-    <fullyQualifiedTypeName name="com.kh.chap2.set.A_HashSet"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="com.kh.object.practice.Product"/>
-    <fullyQualifiedTypeName name="com.kh.object.practice.Book"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="com.kh.chap3.map.model.vo.Snack"/>
-    <fullyQualifiedTypeName name="com.kh.chap3.map.A_Hashmap"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.kh.chap3.map.B_Properties"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
@@ -37,7 +23,6 @@
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.kh.chap2.sync.Buffer"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
     <fullyQualifiedTypeName name="com.kh.network.thread.Receiver"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
@@ -60,4 +45,19 @@
     <fullyQualifiedTypeName name="com.kh.object.practice.StaticSample"/>
     <fullyQualifiedTypeName name="com.kh.inherit.practice.Student"/>
     <fullyQualifiedTypeName name="com.kh.inherit.practice.Employee"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.A_Lambda"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.functional.A_Functional"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.B_Functional"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.functional.B_Functional"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.functional.B_FuncInterface"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.functional.C_FuncInterface"/>
+    <fullyQualifiedTypeName name="com.kh.lambda.basic.functional.A_FuncInterface"/>
 </qualifiedTypeNameHistroy>
