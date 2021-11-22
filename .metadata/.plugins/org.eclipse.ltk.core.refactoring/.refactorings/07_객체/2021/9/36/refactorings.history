@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Extract local variable &apos;method2&apos; from expression &apos;methodTest.method2()&apos;&#x0D;&#x0A;- Original project: &apos;07_객체&apos;&#x0D;&#x0A;- Variable name: &apos;method2&apos;&#x0D;&#x0A;- Destination method: &apos;com.kh.chap5.Applilcation.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;methodTest.method2()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;method2&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.kh.chap5{Applilcation.java" name="method2" replace="true" selection="241 0" stamp="1630472573715" varType="false" version="1.0"/>
-</session>
