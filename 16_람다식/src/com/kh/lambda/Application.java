@@ -1,6 +1,11 @@
 package com.kh.lambda;
 
 import com.kh.lambda.basic.B_Functional;
+import com.kh.lambda.standard.A_Consumer;
+import com.kh.lambda.standard.B_Supplier;
+import com.kh.lambda.standard.C_Function;
+import com.kh.lambda.standard.D_Operator;
+import com.kh.lambda.standard.E_Predicate;
 
 public class Application {
 
@@ -52,9 +57,35 @@ public class Application {
 //		new B_Functional().method1();
 //		new B_Functional().method2();
 //		new B_Functional().method3();
-		new B_Functional().method4(30);
+//		new B_Functional().method4(30);
 	
 	
+		/*
+		 * 표준 함수적 인터페이스
+		 * 	- 자바에서 제공되는 표준 API 들에서(ex. 스레드의 Runnable()), 한 개의 추상 메소드를 가지는 인터페이스들은 모두 람다식을 이용해서 익명 구현 객체로 표현이 가능하다. 
+		 *  - 자바 8부터 빈번히 사용되는 함수적 인터페이스는 java.util.function 표준 패키지로 제공된다.
+		 *  	- 이 패키지의 목적은 메소드 또는 생성자의 매개 타입으로 사용되어 람다식을 대입할 수 있도록 하기 위해서이다.
+		 *  	- 자바 8부터 추가되거나 변경된 API는 이 표준 함수적 인터페이스들을 매개 타입으로 많이 사용한다.
+		 *  - 표준 함수적 인터페이스는 용도에 따라 크게 Consumer, Supplier, Function, Operator, Predicate로 구분한다.
+		 */
+		
+		System.out.println("======================================");
+		
+		
+//		new A_Consumer().method1();
+//		new B_Supplier().method1();
+//		new C_Function().method1();
+//		new D_Operator().method1();
+		new E_Predicate().method1();
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	}
 
