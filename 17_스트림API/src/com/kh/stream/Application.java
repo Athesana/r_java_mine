@@ -1,6 +1,12 @@
 package com.kh.stream;
 
 import com.kh.stream.intermediate.A_Filtering;
+import com.kh.stream.intermediate.B_Mapping;
+import com.kh.stream.intermediate.C_Sorted;
+import com.kh.stream.intermediate.D_Looping;
+import com.kh.stream.terminal.A_Match;
+import com.kh.stream.terminal.B_Aggregate;
+import com.kh.stream.terminal.C_Collect;
 
 public class Application {
 
@@ -25,10 +31,34 @@ public class Application {
 //		new A_Create().method2();
 //		new A_Create().method3();
 		
-		System.out.println("===================================");
+//		System.out.println("===================================");
 		
 //		new A_Filtering().method1();
-		new A_Filtering().method2();
+//		new A_Filtering().method2();
+		
+//		System.out.println("===================================");
+
+//		new B_Mapping().method1();
+//		new B_Mapping().method2();
+//		new B_Mapping().method3();
+		
+//		System.out.println("===================================");
+		
+//		new C_Sorted().method1();
+//		new C_Sorted().method2();
+		
+//		System.out.println("===================================");
+//		new D_Looping().method1();
+		
+		System.out.println("===================================");
+//		new A_Match().method1();
+//		new A_Match().method2();
+//		new B_Aggregate().method1();
+//		new B_Aggregate().method2();
+//		new B_Aggregate().method3();
+		new C_Collect().method1();
+		
+		
 		
 	}
 
