@@ -1,6 +1,3 @@
-
-
-
 package com.kh.chap3;
 
 import java.io.FileNotFoundException;
